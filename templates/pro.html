@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Corona Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+</head>
+
+<body>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    PFORZHEIM STADT
+                </h1>
+                <h2> See info below </h2>
+            </div>
+        </div>
+    </section>
+    <section class="pforzheim_info">
+        <div class="hero-body">
+            <div class="container">
+                <h2> Current data </h2>
+                <h3> Cases: {{data.cases}} </h3>
+                <h3>deaths: {{data.deaths}}</h3>
+                <h3>Cases per population: {{data.cases_per_population}}</h3>
+                <h3>Last Update: {{data.last_update}}</h3>
+            </div>
+        </div>
+    </section>
+    <section class="Pforzheim_plot">
+        <div class="hero-body">
+            <div class="container">
+              <h1>Pforzheim trend</h1>
+                  <p>{{ chart1 }}</p>
+                   <img src="{{url_for('static', filename='./pforzheim.png')}}" />
+            </div>
+        </div>
+    </section>
+
+    <section class="Pforzheim_situation">
+        <div class="hero-body">
+            <div class="container">
+              <h1>Current restriction</h1>
+                  <p>{{ msg }}</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="body">
+        <div class="hero-body">
+            <div class="container">
+            <div class="linking">
+                <h2>See past data</h2>
+                <p>
+                    <a href=history_pforzheim> <button> History </button></a></p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>Data src: RKI Corona Landkreise </p>
+        <p>Author: Shrishti Mohabey, Student HKa, #66975</p>
+    </footer>
+</body>
+
+</html>
