@@ -1,0 +1,44 @@
+{
+    "Karlsruhe": [
+        {
+            "cases7_lk": 70,
+            "death7_lk": 0,
+            "last_update": "01.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 50,
+            "death7_lk": 0,
+            "last_update": "02.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 80,
+            "death7_lk": 0,
+            "last_update": "02.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 72,
+            "death7_lk": 0,
+            "last_update": "03.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 72,
+            "death7_lk": 0,
+            "last_update": "03.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 65,
+            "death7_lk": 0,
+            "last_update": "04.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 62,
+            "death7_lk": 0,
+            "last_update": "05.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 54,
+            "death7_lk": 0,
+            "last_update": "06.06.2021, 00:00 Uhr"
+        }
+    ]
+}

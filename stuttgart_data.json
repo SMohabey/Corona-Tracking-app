@@ -1,0 +1,34 @@
+{
+    "Stuttgart": [
+        {
+            "cases7_lk": 206,
+            "death7_lk": 0,
+            "last_update": "01.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 296,
+            "death7_lk": 0,
+            "last_update": "02.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 197,
+            "death7_lk": 0,
+            "last_update": "03.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 238,
+            "death7_lk": 0,
+            "last_update": "04.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 225,
+            "death7_lk": 0,
+            "last_update": "05.06.2021, 00:00 Uhr"
+        },
+        {
+            "cases7_lk": 218,
+            "death7_lk": 0,
+            "last_update": "06.06.2021, 00:00 Uhr"
+        }
+    ]
+}
